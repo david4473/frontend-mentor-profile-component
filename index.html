@@ -5,40 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <section class="card-wrapper">
-    <div class="top-section">
-      <img src="./images/image-victor.jpg" alt="profile picture">
-      <div>
+    <div class="card">
+      <img class="pattern-img" src="./images/bg-pattern-card.svg" alt="profile card pattern design">
+      <div class="top-section">
+      <img class="profile-image" src="./images/image-victor.jpg" alt="profile picture">
+      <div class="profile-info">
         <h2>Victor Crest <span>26</span></h2> 
         <p class="city-text">London</p>
       </div>
     </div>
 
     <div class="lower-section">
-      <div>
+      <div class="first-col">
          <h2>80K</h2>
          <p>Followers</p>
       </div>
-     <div>
+     <div class="second-col">
        <h2>803K</h2>
        <p>Likes</p>
      </div>
-     <div>
+     <div class="third-col">
        <h2>1.4K</h2>
        <p>Photos</p>
      </div>
     </div>
+    </div>
+    
 
   </section>
 
